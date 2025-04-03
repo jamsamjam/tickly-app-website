@@ -58,16 +58,21 @@ function TicklyLandingPage() {
       <section className="bg-gray-100 py-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">See Tickly in Action</h2>
-          <div className="flex justify-center">
+          <div className="flex flex-col items-center">
           <video
-            src="/preview.mp4"
+            src="/preview.mov"
             controls
             autoPlay
             loop
             muted
             playsInline
-            className="rounded-xl shadow-xl max-w-lg"
+            className="rounded-xl shadow-xl max-w-xs"
           />
+          <div className="h-4" />
+          <p className="mt-2 text-sm text-gray-500">
+            Music: &quot;Carefree&quot; Kevin MacLeod (incompetech.com) <br />
+            Licensed under Creative Commons: By Attribution 4.0 License
+          </p>
           </div>
         </div>
       </section>
@@ -75,11 +80,6 @@ function TicklyLandingPage() {
       {/* Footer */}
       <footer className="text-center text-sm text-gray-500 py-10 bg-white">
         <p>© 2025 Sam Lee. All rights reserved.</p>
-        <p className="mt-2">
-          Music: &quot;Carefree&quot; Kevin MacLeod (incompetech.com)
-          <br />
-          Licensed under Creative Commons: By Attribution 4.0 License
-        </p>
         <div className="mt-4">
           <Link to="/privacy" className="text-blue-500 hover:underline mr-4">Privacy Policy</Link>
           <Link to="/terms" className="text-blue-500 hover:underline">Terms & Conditions</Link>
@@ -116,7 +116,7 @@ function PrivacyPolicy() {
       <h2 className="text-xl font-semibold mt-6 mb-2">4. Your Rights</h2>
       <p className="mb-4">You may delete your data at any time from within the app. You may contact us to request removal or export of your records.</p>
       <h2 className="text-xl font-semibold mt-6 mb-2">5. Contact</h2>
-      <p>If you have any questions, contact us at: hello@tickly.app</p>
+      <p>If you have any questions, contact us at: typing-wariest.4b@icloud.com</p>
     </div>
   )
 }
