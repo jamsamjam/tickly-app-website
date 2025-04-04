@@ -131,7 +131,7 @@ function PrivacyPolicy() {
 }
 
 // ---------------------------
-// Terms & Conditions (Updated)
+// Terms & Conditions
 // ---------------------------
 function TermsAndConditions() {
   return (
@@ -156,10 +156,10 @@ function TermsAndConditions() {
 
       <h2 className="text-xl font-semibold mt-6 mb-2">5. Paid & Premium Features</h2>
       <p className="mb-4">
-        Tickly offers both free and premium features. The premium features are available through subscription plans with different durations, including weekly, monthly, and yearly options. Users who choose a subscription will be charged based on the selected plan at the end of their free trial period.
+        Tickly offers both free and premium features. The premium features are available through subscription plans with different durations, including monthly and yearly options. Users who choose a subscription will be charged based on the selected plan at the end of their free trial period.
       </p>
       <p className="mb-4">
-        We offer a free trial for all users. The free trial period is 7 days, during which you can use all premium features without charge. After the trial period ends, you will automatically be charged according to the selected subscription plan, unless you cancel the subscription before the trial period expires.
+        We offer a free trial for all users. The free trial period is 2 weeks, during which you can use all premium features without charge. After the trial period ends, you will automatically be charged according to the selected subscription plan, unless you cancel the subscription before the trial period expires.
       </p>
       <p className="mb-4">
         You may cancel the subscription at any time before the end of the free trial period to avoid any charges. If you cancel during the trial, you will lose access to premium features immediately after the trial ends.
