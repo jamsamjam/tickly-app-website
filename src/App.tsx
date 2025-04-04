@@ -113,9 +113,18 @@ function PrivacyPolicy() {
       </ul>
       <h2 className="text-xl font-semibold mt-6 mb-2">3. Data Storage</h2>
       <p className="mb-4">Your time logs are stored locally on your device. We do not share or sell your data to third parties.</p>
-      <h2 className="text-xl font-semibold mt-6 mb-2">4. Your Rights</h2>
+
+      <h2 className="text-xl font-semibold mt-6 mb-2">4. Subscription Information</h2>
+      <p className="mb-4">
+        If you choose to subscribe to the premium features, your subscription details (including payment and billing information) will be processed by Apple’s App Store. Tickly does not directly collect or store payment information. The App Store processes all subscription payments on our behalf.
+      </p>
+      <p className="mb-4">
+        Tickly will store your subscription status, which is linked to your iCloud account, to provide access to premium features. Your subscription details are only used for managing your access to the premium content and ensuring that you are charged correctly at the end of the free trial period.
+      </p>
+
+      <h2 className="text-xl font-semibold mt-6 mb-2">5. Your Rights</h2>
       <p className="mb-4">You may delete your data at any time from within the app. You may contact us to request removal or export of your records.</p>
-      <h2 className="text-xl font-semibold mt-6 mb-2">5. Contact</h2>
+      <h2 className="text-xl font-semibold mt-6 mb-2">6. Contact</h2>
       <p>If you have any questions, contact us at: typing-wariest.4b@icloud.com</p>
     </div>
   )
@@ -146,7 +155,15 @@ function TermsAndConditions() {
       <p className="mb-4">We may update these Terms from time to time. Continued use of the app means you accept any changes.</p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">5. Paid & Premium Features</h2>
-      <p className="mb-4">We may introduce or remove paid features (e.g., premium themes, advanced analytics) at any time. If you choose to purchase any premium feature or subscription, you agree to the applicable pricing, payment terms, and renewal policies, which we will make available before you complete a purchase.</p>
+      <p className="mb-4">
+        Tickly offers both free and premium features. The premium features are available through subscription plans with different durations, including weekly, monthly, and yearly options. Users who choose a subscription will be charged based on the selected plan at the end of their free trial period.
+      </p>
+      <p className="mb-4">
+        We offer a free trial for all users. The free trial period is 7 days, during which you can use all premium features without charge. After the trial period ends, you will automatically be charged according to the selected subscription plan, unless you cancel the subscription before the trial period expires.
+      </p>
+      <p className="mb-4">
+        You may cancel the subscription at any time before the end of the free trial period to avoid any charges. If you cancel during the trial, you will lose access to premium features immediately after the trial ends.
+      </p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">6. Contact</h2>
       <p>For any questions, reach us at: typing-wariest.4b@icloud.com</p>
