@@ -1,5 +1,6 @@
 // App.tsx
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 // -----------------------
 // Tickly Landing Page
@@ -15,7 +16,7 @@ function TicklyLandingPage() {
         </p>
         <div className="mt-8 space-x-4">
           <a
-            href="#"
+            href="https://apps.apple.com/ng/app/tickly/id6744147165?uo=2"
             className="bg-[#6495ed] hover:bg-[#4169e1] text-white font-semibold py-2 px-6 rounded-xl shadow-md"
           >
             Download for iOS
@@ -93,8 +94,17 @@ function TicklyLandingPage() {
 // Privacy Policy
 // ---------------------------
 function PrivacyPolicy() {
+  const navigate = useNavigate()
+
   return (
     <div className="p-8 max-w-3xl mx-auto text-gray-800">
+      <button
+        onClick={() => navigate("/")}
+        className="text-blue-500 mb-6"
+      >
+        ←
+      </button>
+      
       <h1 className="text-3xl font-bold mb-6">Privacy Policy</h1>
       <p className="mb-2">Effective Date: April 2, 2025</p>
       <p className="mb-4">
@@ -134,8 +144,17 @@ function PrivacyPolicy() {
 // Terms & Conditions
 // ---------------------------
 function TermsAndConditions() {
+  const navigate = useNavigate()
+
   return (
     <div className="p-8 max-w-3xl mx-auto text-gray-800">
+      <button
+        onClick={() => navigate("/")}
+        className="text-blue-500 mb-6"
+      >
+        ←
+      </button>
+
       <h1 className="text-3xl font-bold mb-6">Terms & Conditions</h1>
       <p className="mb-2">Effective Date: April 2, 2025</p>
       <p className="mb-4">
